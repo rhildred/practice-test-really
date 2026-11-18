@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="general">General Inquiry</option>
+        <option value="support">Support Request</option>
+        <option value="feedback">Feedback</option>
+    </select><br><br>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="5" cols="40" required></textarea><br><br>
+    <button type="submit">Contact</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>
